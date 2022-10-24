@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link
+    rel="shortcut icon"
+    href="assets/images/favicon.png"
+    type="image/x-icon"
+  />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- Scripts pour gerer l'animation de la barre du Header -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script lang="javascript">
+      (function () {
+        "use strict";
+            window.onscroll = function () {
+            const ud_header = document.querySelector(".ud-header");
+            const sticky = ud_header.offsetTop;
+            const logo = document.querySelector(".navbar-logo");
+            if (window.pageYOffset > sticky) {
+              ud_header.classList.add("sticky");
+            } else {
+              ud_header.classList.remove("sticky");
+            }
+          };
+          })();
+    </script>
+  </body>
+</html>
