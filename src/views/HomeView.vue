@@ -2113,19 +2113,19 @@ export default {
       */
       members: [
         {
-          name: 'Benjamin Ohanja',
+          name: 'Benjamin Ohandja',
           role: 'Chef de groupe'
         },
         {
-          name: 'Benjamin Ohanja',
+          name: 'Benjamin Ohandja',
           role: 'Chef de groupe'
         },
         {
-          name: 'Benjamin Ohanja',
+          name: 'Benjamin Ohandja',
           role: 'Chef de groupe'
         },
         {
-          name: 'Benjamin Ohanja',
+          name: 'Benjamin Ohandja',
           role: 'Chef de groupe'
         },
       ],
