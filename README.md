@@ -6,4 +6,4 @@ pour demarer l'application, vous installer les outils vueJs et  vous faites
 NPM INSTALL
 NPM RUN RESVE
 
-une fois faite, l'application des disponible sur l'adresse proposé par le server NODE
+une fois fait, l'application es disponible sur l'adresse proposée par le server NodeJS
